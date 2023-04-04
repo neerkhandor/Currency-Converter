@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@200&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <div class="img">
+                <img id="img" src="https://cdn.shopify.com/app-store/listing_images/b33f6d876accac12b91af70e42dabbdb/icon/CK-cufzoue8CEAE=.png">
+            </div>
+         
+            <h1 class="heading">Currency Converter</h1>
+            <div class="currency-converter" class="first">
+                <select id="currency-first" id="currency">
+                    <option value="AUD">AUD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR">INR</option>
+                    <option value="USD" selected>USD</option>
+                </select>
+                <input type="number" name="" id="worth-first" value="1" min="1">
+            </div>
+            <div class="currency-converter" class="second">
+                <select id="currency-second" id="currency">
+                    <option value="AUD">AUD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR" selected>INR</option>
+                    <option value="USD">USD</option>
+                </select>
+                <input type="number" name="" id="worth-second" disabled>
+            </div>
+            <p id="exchange-rate" class="exchange-rate">1USD=81INR</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
